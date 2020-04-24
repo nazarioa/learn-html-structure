@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Select Test</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="home-work-1.css">
+</head>
+
+<body>
+<div class="page medical-info">
+  <header>
+    <h1 class="title">Medical Info</h1>
+    <nav class="main-nav">
+      <span>Menu:</span>
+      <ul>
+        <li><a href="http://wwww.apple.com">Apple</a></li>
+        <li><a href="http://wwww.uhc.com">UHC</a></li>
+        <li><a href="http://wwww.kp.org">KP</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="basics">
+      <h2 class="title">Child Basics</h2>
+
+      <div class="fields">
+        <div class="first-name field">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname">
+        </div>
+
+        <div class="last-name field">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname">
+        </div>
+      </div>
+    </section>
+
+    <section class="parents">
+      <h2 class="title">Parents</h2>
+
+      <div class="fields">
+        <div class="parent parent-1">
+          <h3 clas="title">Parent 1</h3>
+          <div class="first-name field">
+            <label for="p1fname">First Name</label>
+            <input type="text" id="p1fname">
+          </div>
+
+          <div class="last-name field">
+            <label for="p1lname">Last Name</label>
+            <input type="text" id="p1lname">
+          </div>
+        </div>
+
+        <div class="parent parent-2">
+          <h3>Parent 2</h3>
+          <div class="first-name field">
+            <label for="p2fname">First Name</label>
+            <input type="text" id="p2fname">
+          </div>
+
+          <div class="last-name field">
+            <label for="p2lname">Last Name</label>
+            <input type="text" id="p2lname">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="comorbidity">
+      <h2 class="title">Comorbidities</h2>
+      <div class="fields">
+        <label class="field diabetes">
+          Diabetes
+          <input type="checkbox" value="diabetes"/>
+        </label>
+
+        <label class="field high-blood">
+          High Blood
+          <input type="checkbox" value="high-blood"/>
+        </label>
+
+        <label class="field smoking">
+          Smoking
+          <input type="checkbox" value="smoking"/>
+        </label>
+
+        <label class="field pre-diabetes">
+          Pre-Diabetes
+          <input type="checkbox" value="pre-diabities"/>
+        </label>
+
+        <label class="field death">
+          Already dead
+          <input type="checkbox" value="death"/>
+        </label>
+      </div>
+      <div class="error">You must select a comorbidity.</div>
+    </section>
+
+    <section class="sex">
+      <h2 class="title">Sex</h2>
+      <div class="fields">
+        <label class="field male">
+          Male
+          <input type="radio" value="male" name="sex"/>
+        </label>
+
+        <label class="field female">
+          Female
+          <input type="radio" value="female" name="sex"/>
+        </label>
+      </div>
+    </section>
+
+    <div class="form-actions">
+      <button class="btn btn-primary btn-submit">Ok</button>
+      <button type="reset" class="btn btn-secondary btn-cancel">Reset</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <nav class="main-nav">
+      <span>Menu:</span>
+      <ul>
+        <li><a href="http://wwww.apple.com">Apple</a></li>
+        <li><a href="http://wwww.uhc.com">UHC</a></li>
+        <li><a href="http://wwww.kp.org">KP</a></li>
+      </ul>
+    </nav>
+  </footer>
+</div>
+</body>
+
+</html>

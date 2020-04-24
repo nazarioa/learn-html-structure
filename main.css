@@ -1,0 +1,75 @@
+/*
+#51bfff
+#ffb951
+#ff6251
+*/
+
+body {
+  background-color: #dedede;
+  color: #222222;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.page {
+  background-color: white;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.page header {
+  background-color: #ff6251; /*Q1*/
+  padding: 2rem;
+}
+
+.page header .title {
+  font-size: 2rem; /*Q2*/
+}
+
+.page main {
+  padding: 1em;
+}
+
+.page main section {
+  margin-bottom: 2rem;
+}
+
+.page section .title {
+  font-size: 1.5rem; /*Q6*/
+  font-weight: bolder; /*Q6*/
+}
+
+.main-nav ul li {
+  display: inline-block;
+}
+
+.fields {
+  display: flex;
+}
+
+.fields .field {
+  border: 1px solid #ff6251; /*Q3*/
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  border: 0 solid #dedede;
+}
+
+.btn-submit {
+  background-color: #51bfff; /*Q4*/
+}
+
+.last-name label {
+  color: #51bfff; /*Q5*/
+}
