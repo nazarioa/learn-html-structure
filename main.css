@@ -23,12 +23,12 @@ body {
 }
 
 .page header {
-  background-color: #ff6251; /*Q1*/
+  /*background-color: #ff6251; !*Q1*!*/
   padding: 2rem;
 }
 
 .page header .title {
-  font-size: 2rem; /*Q2*/
+  /*font-size: 2rem; !*Q2*!*/
 }
 
 .page main {
@@ -40,8 +40,8 @@ body {
 }
 
 .page section .title {
-  font-size: 1.5rem; /*Q6*/
-  font-weight: bolder; /*Q6*/
+  /*font-size: 1.5rem; !*Q6*!*/
+  /*font-weight: bolder; !*Q6*!*/
 }
 
 .main-nav ul li {
@@ -53,7 +53,7 @@ body {
 }
 
 .fields .field {
-  border: 1px solid #ff6251; /*Q3*/
+  /*border: 1px solid #ff6251; !*Q3*!*/
   padding: 1rem;
   margin: 1rem;
   border-radius: 4px;
@@ -67,9 +67,9 @@ body {
 }
 
 .btn-submit {
-  background-color: #51bfff; /*Q4*/
+  /*background-color: #51bfff; !*Q4*!*/
 }
 
 .last-name label {
-  color: #51bfff; /*Q5*/
+  /*color: #51bfff; !*Q5*!*/
 }
