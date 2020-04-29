@@ -2,7 +2,7 @@
 Question 1
 Make the page header's background reddish
 */
-Q1 {
+.page header {
   background-color: #ff6251;
 }
 
@@ -11,7 +11,7 @@ Q1 {
 Question 2
 Make the page header's text bigger but not the menu
 */
-Q2 {
+.page header .title {
   font-size: 2rem;
 }
 
@@ -20,7 +20,7 @@ Q2 {
 Question 3
 Add a red border around all the fields
 */
-Q3 {
+.page .fields .field{
   border: 1px solid #ff6251;
 }
 
@@ -29,7 +29,7 @@ Q3 {
 Question 4
 Make the submit button's background blue
 */
-Q4 {
+.page .form-actions .btn-submit{
   background-color: #51bfff;
 }
 
@@ -38,7 +38,7 @@ Q4 {
 Question 5
 Make all the last name label's text blue
 */
-Q5 {
+.page .last-name  {
   color: #51bfff;
 }
 
@@ -47,7 +47,7 @@ Q5 {
 Question 6
 Make the section titles bolder and bigger
 */
-Q6 {
+.page .title {
   font-size: 1.5rem;
   font-weight: bolder;
 }
